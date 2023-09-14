@@ -7,7 +7,7 @@ Este projeto tem como objetivo criar um scraper para extrair informações dos p
 - Faça a instalação do pacote requeriments.txt
   
 - Faça a instalação do WebDriver do browser
-  -- Colocar o Webdriver dentro da pasta aonde o python esteja instaldo que geramente é:
+    - Colocar o Webdriver dentro da pasta aonde o python esteja instaldo que geramente é:
          ## C:\Users\<Seu user>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.11
   
   ### ⚠️Atenção⚠️
