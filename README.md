@@ -6,6 +6,8 @@ Este projeto tem como objetivo criar um scraper para extrair informações dos p
 
 - Faça a instalação do pacote requeriments.txt pois ele contem as bibliotecas necessarias
     - Comando: pip install -r requirements.txt
+
+
   
 - Faça a instalação do WebDriver do browser
     - Colocar o Webdriver dentro da pasta aonde o python esteja instaldo que geramente é:
