@@ -16,8 +16,8 @@ Este projeto tem como objetivo criar um scraper para extrair informações dos p
 
 ## Links 🚀
 
-GeckoDriver: https://github.com/mozilla/geckodriver/releases
-Browser: https://www.mozilla.org/pt-BR/firefox/new/
+- GeckoDriver: https://github.com/mozilla/geckodriver/releases
+- Browser: https://www.mozilla.org/pt-BR/firefox/new/
 
 
  # 🚧 Cuidado 🚧
