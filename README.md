@@ -1,6 +1,6 @@
-# 🌐 Scrapper de produtos do Mercado Livre
+# 🌐 Scrapper de infos de produtos
 
-Este projeto tem como objetivo criar um scraper para extrair informações dos produtos do Mercado Livre. Inicialmente, foi desenvolvido para produtos como carros, mas demonstrou eficácia ao ser adaptado para outros tipos de produtos, mesmo diante das mudanças na forma como o site apresenta seus dados no navegador.
+Este projeto tem como objetivo criar um scraper para extrair informações. Inicialmente, foi desenvolvido para produtos como carros, mas demonstrou eficácia ao ser adaptado para outros tipos de produtos, mesmo diante das mudanças na forma como o site apresenta seus dados no navegador.
 
 ## ⭐️ Como usar
 
