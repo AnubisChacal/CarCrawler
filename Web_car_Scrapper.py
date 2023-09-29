@@ -19,7 +19,7 @@ driver = webdriver.Firefox(options=options)
 
 #======================================================================
 
-url = 'https://www.mercadolivre.com.br/'  
+url = '---------------------------------'  
 pesquisa = 'chevrolet classic'  # Substitua com a pesquisa desejada
 driver.get(url) # Abra a página da web com o Selenium
 #========================================================================
