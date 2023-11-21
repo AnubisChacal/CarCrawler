@@ -12,7 +12,7 @@ from selenium.webdriver.firefox.options import Options
 
 # Configurações do Selenium
 # Caso mude de web-drive sera necessario auterar essa região
-# Recomendo utlixar o firefox por motivos de bypass de aspectos de sehurança
+# Recomendo utlixar o firefox por motivos de bypass de aspectos de segurança
 options = Options()
 options.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0")
 driver = webdriver.Firefox(options=options)
