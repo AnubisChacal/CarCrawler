@@ -1,28 +1,60 @@
-# 🌐 Scrapper de infos de produtos
+# 🚗🔍 CarCrawler
 
-Este projeto tem como objetivo criar um scraper para extrair informações. Inicialmente, foi desenvolvido para produtos como carros, mas demonstrou eficácia ao ser adaptado para outros tipos de produtos, mesmo diante das mudanças na forma como o site apresenta seus dados no navegador.
+CarCrawler é uma ferramenta automatizada desenvolvida em Python que utiliza Selenium e BeautifulSoup para coletar informações detalhadas sobre carros de sites de venda. O projeto é capaz de realizar buscas, extrair links relevantes, baixar imagens dos veículos, e salvar as características e descrições dos carros em arquivos de texto organizados por diretórios.
 
-## ⭐️ Como usar
+## 🛠️ Funcionalidades
 
-- Faça a instalação do pacote requeriments.txt pois ele contem as bibliotecas necessarias
-    - Comando: pip install -r requirements.txt
+- **Busca automatizada**: Realiza buscas por termos específicos, como o modelo do carro, em sites de venda.
+- **Extração de links**: Coleta todos os links relevantes dos resultados de busca para posterior processamento.
+- **Download de imagens**: Baixa automaticamente todas as imagens de veículos no formato `.webp`.
+- **Armazenamento de informações**: Salva as características e descrições dos veículos em arquivos de texto, organizados em diretórios com base nos links.
 
+## 📂 Estrutura do Projeto
 
-  
-- Faça a instalação do WebDriver do browser
-    - Colocar o Webdriver dentro da pasta aonde o python esteja instaldo que geramente é:
-         ## C:\Users\ <Seu user> \AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.11
-  
-  ### ⚠️Atenção⚠️
-  É necessario fazer a instalação do WebDriver referente ao browser que esta seno utilizado tanto no programa quanto na maquina.
-  Nesse projeto utilizei o WebDriver do Firefox e o Browser do Firefox, o WebDrive do FireFox é conhecido com "geckodriver", por segurança irei disponibilizar os links de instalação do WebDriver e do Browser
+- **`CarCrawler.py`**: Script principal que executa todo o processo de scraping e armazenamento de dados.
+- **`/imagens`**: Diretório onde as imagens baixadas dos veículos são armazenadas.
+- **`/informacoes`**: Diretório onde as informações dos veículos, como características e descrições, são armazenadas em arquivos `.txt`.
 
-## Links 🚀
+## 🚀 Como Usar
 
-- GeckoDriver: https://github.com/mozilla/geckodriver/releases
-- Browser: https://www.mozilla.org/pt-BR/firefox/new/
+1. **Clone o repositório**:
+    ```bash
+    git clone https://github.com/AnubisChacal/CarCrawler.git
+    ```
 
+2. **Instale as dependências**:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
- # 🚧 Cuidado 🚧
+3. **Configure o script**:
+   - Substitua a variável `url` no script com o URL do site que você deseja scraper.
+   - Ajuste a variável `pesquisa` para o termo que você deseja buscar (por exemplo, "chevrolet classic").
 
-Qualquer modificação no WebDriver deve ser devidamente documentada no programa, pois pode impedir o funcionamento adequado do mesmo posteriormente.
+4. **Execute o script**:
+    ```bash
+    python CarCrawler.py
+    ```
+
+5. **Resultados**:
+   - As imagens serão baixadas para o diretório correspondente, e as características e descrições dos veículos serão salvas em arquivos de texto.
+
+## 🛠️ Requisitos
+
+- **Python 3.x**
+- **Selenium**
+- **BeautifulSoup**
+- **Requests**
+- **Geckodriver** (para Firefox)
+
+## 📝 Observações
+
+- Este script foi desenvolvido para fins educacionais. Certifique-se de respeitar os termos de serviço dos sites ao utilizar web scrapers.
+
+## 📝 Licença
+
+Este projeto é licenciado sob a [MIT License](LICENSE).
+
+---
+
+Desenvolvido com ❤️ por [Seu Nome](https://github.com/AnubisChacal).
