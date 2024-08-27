@@ -50,11 +50,3 @@ CarCrawler é uma ferramenta automatizada desenvolvida em Python que utiliza Sel
 ## 📝 Observações
 
 - Este script foi desenvolvido para fins educacionais. Certifique-se de respeitar os termos de serviço dos sites ao utilizar web scrapers.
-
-## 📝 Licença
-
-Este projeto é licenciado sob a [MIT License](LICENSE).
-
----
-
-Desenvolvido com ❤️ por [Seu Nome](https://github.com/AnubisChacal).
